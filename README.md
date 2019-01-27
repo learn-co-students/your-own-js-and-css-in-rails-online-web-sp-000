@@ -1,5 +1,16 @@
 # Your Own Js And Css In Rails
 
+
+
+// const hideMe = document.getElementById('hide_this');
+//
+// function hideWhenClicked(el) {
+//   el.hide();
+// }
+//
+// hideMe.addEventListener('click', (e) => hideWhenClicked(e.target));
+
+
 ## Objectives
 
 1. Write your own CSS and integrate it into the asset pipeline and use it in views.
