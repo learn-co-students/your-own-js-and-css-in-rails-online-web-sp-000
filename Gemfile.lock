@@ -93,6 +93,7 @@ GEM
       capybara (~> 2.1)
       cliver (~> 0.3.1)
       websocket-driver (>= 0.2.0)
+    psych (3.1.0)
     public_suffix (2.0.5)
     rack (1.6.5)
     rack-test (0.6.3)
@@ -196,6 +197,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   poltergeist
+  psych (~> 3.1)
   rails (= 4.2.5.1)
   rspec-rails (~> 3.0)
   sass-rails (~> 5.0)
@@ -207,4 +209,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.13.6
+   1.16.6
