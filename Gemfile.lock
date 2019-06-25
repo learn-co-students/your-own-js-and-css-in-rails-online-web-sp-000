@@ -96,11 +96,13 @@ GEM
     nio4r (2.3.1)
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
+    phantomjs (2.1.1.0)
     poltergeist (1.18.1)
       capybara (>= 2.1, < 4)
       cliver (~> 0.3.1)
       websocket-driver (>= 0.2.0)
     public_suffix (3.1.0)
+    puma (3.12.1)
     rack (2.0.7)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -208,7 +210,9 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
+  phantomjs
   poltergeist
+  puma
   rails
   rspec-rails (~> 3.0)
   sass-rails (~> 5.0)
